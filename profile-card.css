@@ -160,6 +160,7 @@ body {
 
 /* Post Navigation */
 .prt {
+    height: 50px;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #e2e2e2;
@@ -205,11 +206,11 @@ body {
 }
 
 .bottom img {
-    height: 25px;
+    height: 40px;
 }
 
 .user img {
-    height: 25px;
+    height: 40px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -272,7 +273,7 @@ body {
 
     /* Highlight Section Adjustments */
     .highlight {
-        gap: 5px; 
+        gap: 20px; 
     }
 
     .hg1 {

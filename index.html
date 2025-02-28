@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="profile-card.css">-->
+	<link rel="stylesheet" href="profile-card.css">
+	<link rel="stylesheet" href="popup.css">
+	<script type="text/javascript" src="profile-card.js"></script>
+	<title>Bday Page</title>
+</head>
+<body>
+	<!-----------------------Profile Card-------------------------->
+	<div class="mobileframe">
+	<div class="topmenu">
+		<div class="username">
+			<div class="lock"><img	src="./icons/lock.png" height="15">
+			</div>
+			<h3>dmct24</h3>
+		</div>
+		<div class="downarrow">
+			<img src="./icons/down-arrow.png" height="15">
+		</div>
+
+		<div class="rtopmenu">
+			<div class="addicon"><img src="./icons/more.png" height="25"></div>
+			<div class="burger"><img src="./icons/burger-bar.png" height="25"></div>
+	</div>
+	</div>
+
+	<div class="profile">
+		<div class="image"><img src="./gallery/profile.png"></div>
+		<div class="align">
+			<div class="pc"><h5>0</h5><p>Posts</p></div>
+			<div class="fc"><h5>124</h5><p>Followers</p></div>
+			<div class="fgc"><h5>44</h5><p>Following</p></div>
+		</div>
+	</div>
+	<div class="bio">
+		<div class="biobody">
+			<p>D<br>gaunsa ka diri?<br>
+			ngl.link/dm88268
+			</p>
+		</div>
+	</div>
+
+	<div class="settings">
+		<div class="editprofile">Edit profile</div>
+		<div class="shareprofile">Share profile</div>
+		<div class="addfriend"><img	src="./icons/invite.png" height="15"></div>
+	</div>
+
+	<div class="highlight">
+		<div class="hg1"></div>
+		<div class="hg1"></div>
+		<div class="hg1"></div>
+		<div class="hg1"></div>
+		<div class="hg1"></div>
+		<div class="hg1"></div>
+		<div class="hg1"></div>
+		<div class="hg1"></div>
+	</div>
+
+	<div class="prt">
+		<div class="grid"><img src="./icons/grid.png" height="25"></div>
+		<div class="reel"><img src="./icons/video.png" height="25"></div>
+		<div class="grid"><img src="./icons/tag.png" height="25"></div>
+	</div>
+
+
+
+	<div class="allgrid">
+		<div class="box"><img src="./gallery/left3.png" onclick="togglePopup('popup-1')"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+		<div class="box"><img src="./gallery/sunset1.jpg"></div>
+	</div>
+
+	<div class="bottom">
+		<div class="home"><img src="./icons/home.png" height="25"></div>
+		<div class="search"><img src="./icons/search.png" height="25"></div>
+		<div class="newposts"><img src="./icons/more.png" height="25"></div>
+		<div class="video"><img src="./icons/video.png" height="25"></div>
+		<div class="user"><img src="./gallery/profile.png" height="25"></div>
+	</div>
+	</div>
+
+	<!-------------------------Pop up contents------------------------------->
+	<div class="popup" id="popup-1">
+		<div class="overlay">
+			<div class="content">
+				<div class="top">
+					<div class="popup-pfp1"><img src="./gallery/profile.png"></div>
+						<p>username</p>
+					<div class="close-button" onclick="togglePopup('popup-1')">&times;</div>
+				</div>
+				
+					<div class="body">
+                		<h1>Sample Text</h1>
+                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            		</div>
+
+            		<div class="bottom2">
+            			<div class="home"><img src="./icons/heart.png" height="25"></div>
+						<div class="search"><img src="./icons/chat.png" height="25"></div>
+            		</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
